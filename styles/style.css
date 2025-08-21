@@ -186,3 +186,85 @@ main {
   text-align: center;
   margin: 35px 110px;
 }
+
+/* resume related section */
+.resume {
+  margin: 130px 0;
+}
+.resume-container {
+  display: flex;
+  gap: 20px;
+}
+.resume-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.resume-subtile {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+}
+.resume-institution {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 6px;
+}
+.resume-para {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  width: 500px;
+  margin-right: 70px;
+}
+.resume-container hr {
+  background: #d1d1d1;
+}
+.resume-btn-container {
+  text-align: center;
+  margin-top: 50px;
+}
+/* footer related styles */
+footer {
+  padding: 130px 0;
+  background-color: #fff8f3;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+footer .section-title {
+  text-align: left;
+}
+.footer-para {
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  width: 500px;
+}
+footer form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+form input[type="text"],
+input[type="email"],
+textarea {
+  border: none;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 5px;
+  background: #fff;
+  line-height: 28px; /* 175% */
+  padding: 18px 30px;
+}
+.social-icons {
+  display: flex;
+  gap: 24px;
+}
